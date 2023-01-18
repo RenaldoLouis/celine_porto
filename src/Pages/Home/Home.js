@@ -1,11 +1,14 @@
 import React from "react";
-import Navbar from "../../components/atom/navbar";
+import FloatingGlassButton from "../../components/atom/FloatingGlassButton";
+import Navbar from "../../components/atom/Navbar";
 import Content from "./Content";
 
 const Home = () => {
     return (
         <div>
-            <Navbar />
+            {/* <Navbar /> */}
+
+            <FloatingGlassButton />
             <Content />
             <div className="footer">
                 <p>Footer</p>
