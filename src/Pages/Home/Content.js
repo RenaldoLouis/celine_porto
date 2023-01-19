@@ -10,9 +10,9 @@ const Content = () => {
                     <div class="row">
                         <div class="col" />
                         <div class="col-7">
-                            <div class="container2">
-                                <div class="box2">
-                                    asd
+                            <div class="containerTwoLine">
+                                <div class="boxTwoLine">
+                                    Celine
                                 </div>
 
                                 {/* <div class="box gradient-border2"></div> */}
