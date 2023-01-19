@@ -5,21 +5,21 @@ import angLogo from '../../assets/images/ANG-Logo.png';
 const FloatingGlassButton = () => {
 
     return (
-        <div className="button-glass-floating">
+        <div className={`${'button-floating'} ${'button-glass'}`} >
             <div class="container text-center">
                 <div class="row">
-                    <div class="col">
+                    <button className={`${'col'} ${'button-nude'}`}>
                         About
-                    </div>
-                    <div class="col">
+                    </button>
+                    <button className={`${'col'} ${'button-nude'}`}>
                         Works
-                    </div>
-                    <div class="col">
+                    </button>
+                    <button className={`${'col'} ${'button-nude'}`}>
                         Contact
-                    </div>
+                    </button>
                 </div>
             </div>
-        </div>
+        </div >
 
     )
 

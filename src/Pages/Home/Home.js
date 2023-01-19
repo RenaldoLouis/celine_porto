@@ -6,8 +6,7 @@ import Content from "./Content";
 const Home = () => {
     return (
         <div>
-            {/* <Navbar /> */}
-
+            <Navbar />
             <FloatingGlassButton />
             <Content />
             <div className="footer">
