@@ -23,26 +23,6 @@
     }
   }
 
-  &-logout {
-    &-container {
-      background-color: transparent;
-      border-color: transparent;
-      margin: auto;
-      cursor: pointer;
-      color: $color-light;
-
-      &:hover {
-        background-color: transparent !important;
-        border-color: transparent !important;
-      }
-    }
-
-    &-button {
-      width: 30px;
-      height: 30px;
-    }
-  }
-
   &-list {
     &:hover,
     &:active {
