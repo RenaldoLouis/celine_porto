@@ -1,0 +1,25 @@
+.titleSectionColor {
+  color: rgba(153, 153, 153, 1);
+}
+.textColorBlack {
+  color: black;
+}
+
+.personalWorks {
+  &-contentContainer {
+    border-bottom: 1px solid #c8c9c4;
+    margin: 50px 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  &-subTitle {
+    color: black;
+    font-weight: 600px;
+    font-size: 64px;
+  }
+  &-showMoreButton {
+    text-align: end;
+    margin: 0px 15px 0px 0px;
+    height: fit-content;
+  }
+}

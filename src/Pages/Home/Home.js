@@ -7,7 +7,7 @@ import homeCard from "../../assets/images/spiderman.jpg"
 
 const Home = () => {
     return (
-        <div>
+        <div className="backgroundColor">
             <Navbar />
             <FloatingGlassButton />
             <Header />

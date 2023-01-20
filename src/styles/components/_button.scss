@@ -4,14 +4,14 @@
     border: none;
   }
   &-primary {
-    color: white !important;
-    background-color: $primary-button-color !important;
+    color: rgba(153, 153, 153, 1);
   }
 
   &-danger {
     color: black !important;
     background-color: red !important;
   }
+
   &-glass {
     display: flex;
     flex-direction: column;

@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
 
     return (
-        <div className="homeBackground backgroundColor">
+        <div className="homeBackground">
             <div className="headerContaier">
                 <div class="container">
                     <div class="row">
