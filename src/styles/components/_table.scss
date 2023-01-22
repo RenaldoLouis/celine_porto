@@ -3,19 +3,14 @@
     background-color: transparent !important;
     color: $secondary-color-gray !important;
 
-    &:hover {
-      color: $primary-color !important;
-    }
+    // &:hover {
+    //   color: red !important;
+    // }
   }
 
   &-pill {
     padding: 8px 12px;
     border-radius: 18px;
-
-    &-active {
-      background-color: $primary-color-pill !important;
-      color: $color-light !important;
-    }
 
     &-inactive {
       background-color: $secondary-color-pill !important;

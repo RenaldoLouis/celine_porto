@@ -11,12 +11,6 @@
   }
 }
 
-.backgroundScreen {
-  background-color: $bg-color;
-  min-height: 100vh;
-  // height: 100vh;
-}
-
 .required:after {
   content: " *";
   color: red;
@@ -82,11 +76,6 @@
   &-primary {
     &-button {
       background-color: $primary-button-color !important;
-      color: $color-light !important;
-    }
-
-    &-pill {
-      background-color: $primary-color-pill !important;
       color: $color-light !important;
     }
   }
