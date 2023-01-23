@@ -15,6 +15,24 @@
   padding: 50px;
 }
 .headerContaier {
-  margin: 50px 50px 0px 50px;
+  margin: 50px 0px;
   padding: 25px;
+}
+
+.textLeftUp {
+  transform: rotate(90deg);
+  width: 250px;
+  padding-top: 204px;
+}
+
+.textLeftDown {
+  transform: rotate(90deg);
+  width: 255px;
+  padding-top: 207px;
+  padding-left: 20px;
+}
+
+.iconLeft {
+  padding-bottom: 13px;
+  padding-left: 13px;
 }
