@@ -2,7 +2,6 @@ import React from "react";
 import { FiArrowDown } from "react-icons/fi";
 import PersonalWorksTitle from '../../assets/images/personalWorks.png';
 
-
 export const PersonalWorks = () => {
 
     return (
@@ -10,7 +9,7 @@ export const PersonalWorks = () => {
 
             <div class="containerTwoLine">
                 <div class="boxTwoLine">
-                    <img src={PersonalWorksTitle} alt="personalWorks" />
+                    <img src={PersonalWorksTitle} style={{ width: '30rem' }} alt="personalWorks" />
                 </div>
             </div>
 

@@ -2,6 +2,7 @@ import React from "react";
 import FlowerIcon from '../../assets/images/flowerIcon.png'
 import ComingSoonHeader from '../../assets/images/comingSoonHeader.png'
 import CelineTitle from '../../assets/images/celineTitle.png'
+import FlowerBlueIconSmall from '../../assets/images/flowerBlueIconSmall.png'
 
 const Header = () => {
 
@@ -18,10 +19,10 @@ const Header = () => {
                                 <p className="textLeftDown">currently open for freelance projects</p>
                             </div>
 
-                            <div class="col" >
+                            <div class="col-7" >
                                 <div class="containerTwoLine">
                                     <div class="boxTwoLine">
-                                        <img src={CelineTitle} alt="flowerIcon" ></img>
+                                        <img src={CelineTitle} style={{ width: '25rem' }} alt="CelineIcon" ></img>
                                     </div>
                                 </div>
 
@@ -49,10 +50,12 @@ const Header = () => {
                                 </div>
                             </div>
 
-                            <div class="col imageHeaderContainer">
-                                <img style={{ width: '750px' }} src={ComingSoonHeader} alt="flowerIcon" ></img>
+                            <div class="col-4 imageHeaderContainer" >
+                                <img style={{ width: '100%' }} src={ComingSoonHeader} alt="ComingSoon" ></img>
                             </div>
-
+                        </div>
+                        <div className="circle" >
+                            <img src={FlowerBlueIconSmall} alt="flowerIcon" ></img>
                         </div>
                     </div>
                 </div>
