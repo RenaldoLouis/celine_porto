@@ -6,11 +6,11 @@ import PersonalWorksTitle from '../../assets/images/personalWorks.png';
 export const PersonalWorks = () => {
 
     return (
-        <div className="container">
+        <div style={{ marginLeft: 155, marginRight: 155 }}>
 
             <div class="containerTwoLine">
                 <div class="boxTwoLine">
-                    <img src={PersonalWorksTitle} />
+                    <img src={PersonalWorksTitle} alt="personalWorks" />
                 </div>
             </div>
 

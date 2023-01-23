@@ -1,5 +1,6 @@
 .containerTwoLine {
   display: flex;
+  height: 230px;
 }
 .boxTwoLine {
   background-image: linear-gradient(#afb0ab, #afb0ab),
@@ -44,4 +45,11 @@
 .iconLeft {
   padding-bottom: 13px;
   padding-left: 13px;
+}
+
+.imageHeaderContainer {
+  align-items: center;
+  display: flex;
+  height: fit-content;
+  justify-content: center;
 }

@@ -1,5 +1,7 @@
 import React from "react";
 import FlowerIcon from '../../assets/images/flowerIcon.png'
+import ComingSoonHeader from '../../assets/images/comingSoonHeader.png'
+import CelineTitle from '../../assets/images/celineTitle.png'
 
 const Header = () => {
 
@@ -19,7 +21,7 @@ const Header = () => {
                             <div class="col" >
                                 <div class="containerTwoLine">
                                     <div class="boxTwoLine">
-                                        Celine
+                                        <img src={CelineTitle} alt="flowerIcon" ></img>
                                     </div>
                                 </div>
 
@@ -47,8 +49,8 @@ const Header = () => {
                                 </div>
                             </div>
 
-                            <div class="col">
-                                Picture
+                            <div class="col imageHeaderContainer">
+                                <img style={{ width: '750px' }} src={ComingSoonHeader} alt="flowerIcon" ></img>
                             </div>
 
                         </div>

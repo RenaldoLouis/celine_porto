@@ -1,5 +1,5 @@
 .navbar {
-  height: 50px;
+  height: 95px;
   padding: 0px 120px 0px 120px !important;
   position: fixed !important;
   width: 100%;
@@ -35,4 +35,8 @@
     color: $color-light;
     font-size: 14px;
   }
+}
+
+.copyright:after {
+  content: "CM \00a9";
 }

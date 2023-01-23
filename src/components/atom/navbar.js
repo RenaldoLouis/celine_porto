@@ -6,10 +6,7 @@ const Navbar = () => {
 
     return (
         <nav className="navbar">
-            <div className="">
-                CM
-            </div>
-
+            <div className="copyright" />
 
             <div className="row">
                 <div className="col-7">
