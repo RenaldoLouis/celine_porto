@@ -1,5 +1,5 @@
 import React from "react";
-import angLogo from '../../assets/images/ANG-Logo.png';
+import FlowerBlueIconSmall from '../../assets/images/flowerBlueIconSmall.png'
 
 
 const Navbar = () => {
@@ -7,10 +7,23 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="">
-                <img className="navbar-logo" src={angLogo} alt="ang" ></img>
+                CM
             </div>
 
-            <ul class="nav nav-pills">
+
+            <div className="row">
+                <div className="col-7">
+                    Jakarta, Indonesia
+                </div>
+                <div className="col-2">
+                    <img src={FlowerBlueIconSmall} alt="flowerIcon" ></img>
+
+                </div>
+                <div className="col-3">
+                    GMT+8
+                </div>
+            </div>
+            {/* <ul class="nav nav-pills">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Active</a>
                 </li>
@@ -30,7 +43,7 @@ const Navbar = () => {
                 <li class="nav-item">
                     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                 </li>
-            </ul>
+            </ul> */}
         </nav>
     )
 

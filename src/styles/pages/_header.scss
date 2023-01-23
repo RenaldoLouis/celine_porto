@@ -19,6 +19,15 @@
   padding: 25px;
 }
 
+.headerText {
+  font-size: 36px;
+  font-weight: 400;
+  font-style: italic;
+  &-selected {
+    color: rgba(1, 88, 255, 1);
+  }
+}
+
 .textLeftUp {
   transform: rotate(90deg);
   width: 250px;
