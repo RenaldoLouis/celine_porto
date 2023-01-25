@@ -7,12 +7,24 @@
     linear-gradient(#afb0ab, #afb0ab),
     linear-gradient($primary-color, $primary-color);
   background-repeat: no-repeat;
-  background-size: 2px 20%, 20% 2px, 2px 30%, 20% 2px,
+  background-size: 2px 20%, 20% 0px, 2px 30%, 20% 0px,
     calc(100% - 8px) calc(100% - 8px);
   background-position: left, top;
   padding: 50px;
   flex: 1 0;
+  position: relative;
 }
+
+.boxTwoLine:before {
+  content: "";
+  position: absolute;
+  left: 55px;
+  top: 0;
+  height: 5px;
+  width: 55px;
+  border-top: 2px solid #afb0ab;
+}
+
 .headerContaier {
   margin: 50px 0px;
 }
