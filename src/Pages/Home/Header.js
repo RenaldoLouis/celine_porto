@@ -21,7 +21,7 @@ const Header = () => {
                         <div class="col" >
                             <div class="containerTwoLine">
                                 <div class="boxTwoLine">
-                                    <img src={CelineTitle} style={{ width: '25rem' }} alt="CelineIcon" ></img>
+                                    <img src={CelineTitle} style={{ width: '90%' }} alt="CelineIcon" ></img>
                                 </div>
                             </div>
 

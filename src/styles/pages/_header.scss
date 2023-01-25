@@ -1,6 +1,5 @@
 .containerTwoLine {
   display: flex;
-  height: 230px;
 }
 .boxTwoLine {
   background-image: linear-gradient(#afb0ab, #afb0ab),
@@ -8,12 +7,11 @@
     linear-gradient(#afb0ab, #afb0ab),
     linear-gradient($primary-color, $primary-color);
   background-repeat: no-repeat;
-  background-size: 2px 20%, 20% 2px, 2px 30%, 40% 2px,
+  background-size: 2px 20%, 20% 2px, 2px 30%, 20% 2px,
     calc(100% - 8px) calc(100% - 8px);
   background-position: left, top;
-  height: 160px;
-  width: 160px;
   padding: 50px;
+  flex: 1 0;
 }
 .headerContaier {
   margin: 50px 0px;
