@@ -3,6 +3,7 @@ import FlowerIcon from '../../assets/images/flowerIcon.png'
 import ComingSoonHeader from '../../assets/images/comingSoonHeader.png'
 import CelineTitle from '../../assets/images/celineTitle.png'
 import FlowerBlueIconSmall from '../../assets/images/flowerBlueIconSmall.png'
+import CircleHeader from '../../assets/images/circleHeader.png'
 
 const Header = () => {
 
@@ -10,7 +11,7 @@ const Header = () => {
         <>
             <div className="homeBackground">
                 <div className="headerContaier">
-                    <div class="row">
+                    <div class="row" style={{ position: "relative" }}>
 
                         <div className="col-1">
                             <p className="textLeftUp">currently open for freelance projects</p>
@@ -52,9 +53,15 @@ const Header = () => {
                         <div class="col imageHeaderContainer" >
                             <img style={{ width: '100%' }} src={ComingSoonHeader} alt="ComingSoon" ></img>
                         </div>
+
                         {/* <div className="circle" >
                             <img src={FlowerBlueIconSmall} alt="flowerIcon" ></img>
                         </div> */}
+
+                        <div>
+                            <img class="innerCircle" src={CircleHeader} alt="circleHeader" ></img>
+                        </div>
+
                     </div>
                 </div>
             </div>

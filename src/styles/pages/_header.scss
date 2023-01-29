@@ -73,3 +73,22 @@
   text-align: center;
   background: #000;
 }
+
+.innerCircle {
+  margin: auto;
+  animation: spinoffPulse 5s infinite linear;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  width: 10vw;
+}
+
+@keyframes spinoffPulse {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
