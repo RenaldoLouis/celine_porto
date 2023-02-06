@@ -1,6 +1,20 @@
 .containerTwoLine {
   display: flex;
 }
+.boxTwoLineBlack {
+  background-image: linear-gradient(#afb0ab, #afb0ab),
+    linear-gradient(#afb0ab, #afb0ab), linear-gradient(#afb0ab, #afb0ab),
+    linear-gradient(#afb0ab, #afb0ab),
+    linear-gradient(rgba(15, 15, 15, 1), rgba(15, 15, 15, 1));
+  background-repeat: no-repeat;
+  background-size: 2px 20%, 20% 0px, 2px 30%, 20% 0px,
+    calc(100% - 8px) calc(100% - 8px);
+  background-position: left, top;
+  padding: 50px;
+  flex: 1 0;
+  position: relative;
+}
+
 .boxTwoLine {
   background-image: linear-gradient(#afb0ab, #afb0ab),
     linear-gradient(#afb0ab, #afb0ab), linear-gradient(#afb0ab, #afb0ab),

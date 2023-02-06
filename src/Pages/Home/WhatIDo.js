@@ -35,7 +35,7 @@ export const WhatIDo = () => {
                 {TextScroll.map((textData, i) => {
                     return (
                         <>
-                            <div className="movingHeader">
+                            <div className="headerText">
                                 {textData.name}
                             </div>
                             {
@@ -49,6 +49,7 @@ export const WhatIDo = () => {
                 })}
             </div>
         </div>
+        // <div></div>
     )
 }
 

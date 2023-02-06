@@ -8,7 +8,7 @@ export const PersonalWorks = () => {
         <div style={{ marginLeft: 155, marginRight: 155 }}>
 
             <div class="containerTwoLine">
-                <div class="boxTwoLine">
+                <div class="boxTwoLineBlack">
                     <img src={PersonalWorksTitle} style={{ width: '30rem' }} alt="personalWorks" />
                 </div>
             </div>
