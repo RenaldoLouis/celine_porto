@@ -4,6 +4,7 @@ import Navbar from "../../components/atom/Navbar";
 import Header from "./Header";
 import PersonalWorks from "./PersonalWorks";
 import homeCard from "../../assets/images/spiderman.jpg"
+import WhatIDo from "./WhatIDo";
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <Navbar />
             <FloatingGlassButton />
             <Header />
+            <WhatIDo />
             <PersonalWorks />
 
             <img className="home-coverImage" src={homeCard} alt="Italian Trulli" />
