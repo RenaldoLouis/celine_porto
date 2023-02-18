@@ -6,6 +6,7 @@
 
 .headerHeight {
   height: 80px;
+  width: 100vw;
 }
 
 .headerMargin {
@@ -25,7 +26,7 @@
   font-family: "Gambetta";
   font-style: italic;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: rgba(175, 176, 171, 1);
 }
 
@@ -33,9 +34,9 @@
   /* animation properties */
   //   transform: translateX(100%);
 
-  -moz-animation: my-animation 15s linear infinite;
-  -webkit-animation: my-animation 15s linear infinite;
-  animation: my-animation 15s linear infinite;
+  -moz-animation: my-animation 25s linear infinite;
+  -webkit-animation: my-animation 25s linear infinite;
+  animation: my-animation 25s linear infinite;
 }
 
 @keyframes my-animation {

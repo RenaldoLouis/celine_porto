@@ -31,7 +31,7 @@ export const WhatIDo = () => {
 
     return (
         <div className="headerBorder headerMargin headerRotate headerHeight">
-            <div className="rowBetween scrollingtextanimation fullHeight" style={{ width: "115vw" }}>
+            <div className="rowBetween scrollingtextanimation fullHeight" style={{ width: "100vw" }}>
                 {TextScroll.map((textData, i) => {
                     return (
                         <>
