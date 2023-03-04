@@ -39,6 +39,16 @@
   border-top: 2px solid #afb0ab;
 }
 
+.boxTwoLineBlack:before {
+  content: "";
+  position: absolute;
+  left: 55px;
+  top: 0;
+  height: 5px;
+  width: 55px;
+  border-top: 2px solid #afb0ab;
+}
+
 .headerContaier {
   margin: 50px 0px;
 }
