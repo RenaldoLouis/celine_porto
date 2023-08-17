@@ -12,7 +12,7 @@ const Home = () => {
             <Navbar />
             <FloatingGlassButton />
             <Header />
-            <div style={{ background: "rgba(15, 15, 15, 1)", paddingTop: "5vw", paddingBottom: "5vw", borderTopLeftRadius: "25px", borderTopRightRadius: "25px" }}>
+            <div style={{background: "rgba(15, 15, 15, 1)", paddingTop: "5vw", paddingBottom: "5vw", borderTopLeftRadius: "25px", borderTopRightRadius: "25px"}}>
                 <WhatIDo />
                 <WhatIDoContent />
                 <PersonalWorks />
@@ -20,7 +20,7 @@ const Home = () => {
 
 
             <div className="footer">
-                <p style={{ color: "black" }}>Footer</p>
+                <p style={{color: "black"}}>Footer</p>
             </div>
         </div>
     )
